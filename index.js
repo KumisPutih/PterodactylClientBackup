@@ -2,7 +2,7 @@ const fs = require("fs");
 
 const { WebhookClient, EmbedBuilder} = require("discord.js")
 
-const webhookClient = new WebhookClient({ url: 'https://discord.com/api/webhooks/1352177888086069279/9gGejPMN6h-zBcATOaqNrRCwLZu1TTSpAuWkojge1LGh2kVcSLXn9ecLxnCOQzyxIXUT' });
+const webhookClient = new WebhookClient({ url: 'your url webhook discord' });
 const online = new EmbedBuilder()
 	.setTitle('Auto Backup Start 🟢')
 	.setColor(0x00FFFF);
