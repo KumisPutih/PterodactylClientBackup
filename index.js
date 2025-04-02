@@ -28,7 +28,7 @@ if (!fs.existsSync("config.json")) {
       pterodactylApiToken: "",
       serverId: "",
       files: ["world", "world_nether", "world_the_end", "plugins"],
-      driveFolderId: "1THpp4GGCc-PL7HLqhZr6fB8bEwDxfBvA",
+      driveFolderId: "",
       maxBackupFile: 20,
       enableCron: false,
       cronTime: "0 * * * *",
