@@ -24,9 +24,9 @@ if (!fs.existsSync("config.json")) {
   fs.writeFileSync(
     "config.json",
     JSON.stringify({
-      pterodactylUrl: "http://128.199.232.243",
-      pterodactylApiToken: "ptla_KhScGiQY0jTnTtqevtdvmsCdEjyimYWqAOKu6RkT7Sn",
-      serverId: "630419b6-4209-4c75-8cd4-9932cecb550e",
+      pterodactylUrl: "http://",
+      pterodactylApiToken: "",
+      serverId: "",
       files: ["world", "world_nether", "world_the_end", "plugins"],
       driveFolderId: "1THpp4GGCc-PL7HLqhZr6fB8bEwDxfBvA",
       maxBackupFile: 20,
